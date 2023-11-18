@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #dcdcdc;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+
+        <Button layoutX="50.0" layoutY="50.0" graphicTextGap="10.0" text="Profile">
+            <graphic>
+                <i class="fi fi-sr-user" />
+            </graphic>
+        </Button>
+
+
+        <Button layoutX="50.0" layoutY="100.0" graphicTextGap="10.0" text="Post Job">
+            <graphic>
+                <i class="fi fi-rr-edit" />
+            </graphic>
+        </Button>
+
+
+        <Button layoutX="50.0" layoutY="150.0" graphicTextGap="10.0" text="Find Job">
+            <graphic>
+                <i class="fi fi-br-search" />
+            </graphic>
+        </Button>
+
+
+        <Button layoutX="50.0" layoutY="200.0" text="Additional Option 1" />
+
+
+        <Button layoutX="50.0" layoutY="250.0" text="Additional Option 2" />
+
+
+        <Button layoutX="50.0" layoutY="300.0" text="Additional Option 3" />
+    </children>
+</AnchorPane>
+

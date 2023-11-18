@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <!-- Background Image -->
+        <ImageView fitHeight="400.0" fitWidth="600.0">
+            <image>
+                <Image url="file:///C:/Users/DELL/Desktop/intern/src/main/resources/com/example/intern/background.jpg" />
+            </image>
+        </ImageView>
+
+        <!-- Registration Form -->
+        <Label layoutX="348.0" layoutY="46.0" text="Registration Form" textFill="WHITE">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+
+        <Label layoutX="331.0" layoutY="100.0" text="Name:" textFill="#fffefe" />
+        <TextField layoutX="418.0" layoutY="96.0" promptText="Enter your name" />
+
+        <Label layoutX="332.0" layoutY="159.0" text="Email:" textFill="WHITE" />
+        <TextField layoutX="418.0" layoutY="155.0" promptText="Enter your email" />
+
+        <Label layoutX="332.0" layoutY="209.0" text="Phone:" textFill="WHITE" />
+        <TextField layoutX="418.0" layoutY="205.0" promptText="Enter your phone number" />
+
+        <Label layoutX="331.0" layoutY="259.0" text="Password:" textFill="WHITE" />
+        <PasswordField layoutX="418.0" layoutY="255.0" promptText="Enter your password" />
+
+        <Button layoutX="433.0" layoutY="305.0" text="Register" />
+      <Button layoutX="505.0" layoutY="305.0" mnemonicParsing="false" text="Login" />
+    </children>
+</AnchorPane>
