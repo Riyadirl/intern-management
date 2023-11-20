@@ -17,7 +17,6 @@
             </image>
         </ImageView>
 
-
         <HBox layoutX="180.0" layoutY="50.0" spacing="10.0" />
          <Button graphicTextGap="5.0" layoutX="36.0" layoutY="142.0" prefHeight="30.0" prefWidth="120.0">
              <graphic>
@@ -30,7 +29,6 @@
              <text>Edit Profile</text>
          </Button>
 
-
          <Button graphicTextGap="5.0" layoutX="36.0" layoutY="185.0" prefHeight="30.0" prefWidth="120.0">
              <graphic>
                  <ImageView fitHeight="20.0" fitWidth="20.0">
@@ -41,7 +39,6 @@
              </graphic>
              <text>Add CV</text>
          </Button>
-
 
          <Button graphicTextGap="5.0" layoutX="35.0" layoutY="230.0" prefHeight="30.0" prefWidth="120.0">
              <graphic>
@@ -54,7 +51,6 @@
              <text>Edit CV</text>
          </Button>
 
-
          <Button graphicTextGap="5.0" layoutX="36.0" layoutY="274.0" prefHeight="30.0" prefWidth="120.0">
              <graphic>
                  <ImageView fitHeight="20.0" fitWidth="20.0">
@@ -65,7 +61,6 @@
              </graphic>
              <text>Delete CV</text>
          </Button>
-
 
          <Button graphicTextGap="5.0" layoutX="327.0" layoutY="50.0" prefHeight="30.0" prefWidth="120.0">
              <graphic>
