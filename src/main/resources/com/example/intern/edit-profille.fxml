@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
+<AnchorPane prefHeight="458.0" prefWidth="703.0" style="-fx-background-image: url('file:///C:/Users/DELL/Desktop/intern/src/main/resources/com/example/intern/home-bg2.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.intern.EditProfileController">
+
+    <VBox layoutX="50.0" layoutY="50.0" spacing="10">
+
+        <Label style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Edit Profile">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="MingLiU_HKSCS-ExtB" size="12.0" />
+         </font></Label>
+
+        <Label text="Name" textFill="WHITE" />
+        <TextField fx:id="nameField" promptText="Name" />
+
+        <Label accessibleRole="BUTTON" text="Email" textFill="WHITE" />
+        <TextField fx:id="emailField" promptText="Email" />
+
+        <Label text="Contact No" textFill="WHITE" />
+    </VBox>
+
+     <Label layoutX="302.0" layoutY="94.0" text="Birth Day" textFill="WHITE" />
+     <DatePicker fx:id="dobPicker" layoutX="300.0" layoutY="116.0" prefHeight="26.0" prefWidth="150.0" promptText="Date of Birth" />
+
+     <Label layoutX="300.0" layoutY="158.0" text="Address" textFill="WHITE" />
+     <TextField fx:id="contactField" layoutX="50.0" layoutY="243.0" promptText="Contact No" />
+     <TextField fx:id="addressField" layoutX="301.0" layoutY="188.0" promptText="Address" />
+
+     <Button layoutX="304.0" layoutY="243.0" onAction="#updateProfile" text="Update" />
 
 </AnchorPane>
