@@ -17,6 +17,7 @@
             </image>
         </ImageView>
 
+<<<<<<< HEAD
 
         <VBox layoutX="150.0" layoutY="50.0" spacing="5.0" />
 
@@ -91,5 +92,64 @@
 
         <VBox layoutX="450.0" layoutY="50.0" spacing="10.0" />
          <Label layoutX="68.0" layoutY="125.0" text="Your Name" />
+=======
+        <HBox layoutX="180.0" layoutY="50.0" spacing="10.0" />
+         <Button graphicTextGap="5.0" layoutX="36.0" layoutY="142.0" prefHeight="30.0" prefWidth="120.0">
+             <graphic>
+                 <ImageView fitHeight="20.0" fitWidth="20.0">
+                     <image>
+                         <Image url="file:///C:/Users/DELL/Desktop/intern/src/main/resources/com/example/intern/img/edit-profile.png" />
+                     </image>
+                 </ImageView>
+             </graphic>
+             <text>Edit Profile</text>
+         </Button>
+
+         <Button graphicTextGap="5.0" layoutX="36.0" layoutY="185.0" prefHeight="30.0" prefWidth="120.0">
+             <graphic>
+                 <ImageView fitHeight="20.0" fitWidth="20.0">
+                     <image>
+                         <Image url="file:///C:/Users/DELL/Desktop/intern/src/main/resources/com/example/intern/img/add.png" />
+                     </image>
+                 </ImageView>
+             </graphic>
+             <text>Add CV</text>
+         </Button>
+
+         <Button graphicTextGap="5.0" layoutX="35.0" layoutY="230.0" prefHeight="30.0" prefWidth="120.0">
+             <graphic>
+                 <ImageView fitHeight="20.0" fitWidth="20.0">
+                     <image>
+                         <Image url="file:///C:/Users/DELL/Desktop/intern/src/main/resources/com/example/intern/img/edit-cv.png" />
+                     </image>
+                 </ImageView>
+             </graphic>
+             <text>Edit CV</text>
+         </Button>
+
+         <Button graphicTextGap="5.0" layoutX="36.0" layoutY="274.0" prefHeight="30.0" prefWidth="120.0">
+             <graphic>
+                 <ImageView fitHeight="20.0" fitWidth="20.0">
+                     <image>
+                         <Image url="file:///C:/Users/DELL/Desktop/intern/src/main/resources/com/example/intern/img/delete.png" />
+                     </image>
+                 </ImageView>
+             </graphic>
+             <text>Delete CV</text>
+         </Button>
+
+         <Button graphicTextGap="5.0" layoutX="327.0" layoutY="50.0" prefHeight="30.0" prefWidth="120.0">
+             <graphic>
+                 <ImageView fitHeight="20.0" fitWidth="20.0">
+                     <image>
+                         <Image url="file:///C:/Users/DELL/Desktop/intern/src/main/resources/com/example/intern/img/history.png" />
+                     </image>
+                 </ImageView>
+             </graphic>
+             <text>Apply History</text>
+         </Button>
+      <Separator layoutX="193.0" layoutY="14.0" orientation="VERTICAL" prefHeight="371.0" prefWidth="0.0" style="-fx-background-color: #696969;" />
+      <ListView layoutX="231.0" layoutY="100.0" prefHeight="256.0" prefWidth="332.0" />
+>>>>>>> ca78499d68375827f2153f7689d438a77d8eb770
     </children>
 </AnchorPane>
