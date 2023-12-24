@@ -1,0 +1,24 @@
+.textField:hover{
+-fx-background-color: #ECF4D6;
+-fx-border-color: #ED5AB3;
+-fx-border-radius: 20px;
+-fx-background-radius: 20px;
+}
+.btn{
+-fx-background-color: none;
+-fx-text-fill: white;
+}
+.btn:hover{
+-fx-background-color: #2D9596;
+-fx-text-fill: white;
+-fx-background-radius: 20px;
+}
+.button:hover{
+-fx-background-color: #2D9596;
+-fx-text-fill: white;
+}
+.button{
+-fx-background-color:#2CD3E1;
+-fx-background-radius: 20px;
+-fx-border-radius: 20px;
+}
